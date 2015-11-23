@@ -1,0 +1,104 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 隐藏启动时黑色背景 -->
+    <style name="start_background" parent="android:Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/ic_launcher</item>
+    </style>
+
+    <!-- 软键盘隐藏时的背景颜色 -->
+    <style name="keyboard_background" parent="android:Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/bg_mainbody_color</item>
+    </style>
+
+    <!-- 页面切换动画 -->
+    <style name="horizontal_slide" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade2</item>
+    </style>
+
+    <style name="AnimFade2" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_to_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_from_left</item>
+    </style>
+
+    <!-- 这里弹框选择动画  从下面进   从下面出 -->
+    <style name="mystyle" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <!-- 这里弹框选择动画   从上面面进   从下面出 -->
+    <style name="mystylefrom_top" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <!-- 这里弹框背景设置 -->
+    <style name="GrouppublishDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">@android:color/transparent</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:backgroundDimEnabled">true</item>
+
+        <!-- 更换背景图片可以实现全透明全透明 @android:color/transparent -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <!-- 间隔线 灰色 -->
+    <style name="style_line_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/color_line</item>
+    </style>
+
+    <!-- popupWindow进出动画 -->
+    <style name="style_pop_anim_top" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_top_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_top_out</item>
+    </style>
+
+    <!-- popupWindow渐变动画 -->
+    <style name="style_pop_anim_alpha" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_alpha_show</item>
+        <item name="android:windowExitAnimation">@anim/anim_alpha_hide</item>
+    </style>
+    <!--自定义ratingbar-->
+    <style name="articlelist_item_ratingbar_style" parent="@android:style/Widget.RatingBar">
+
+        <item name="android:progressDrawable">@drawable/ic_launcher</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">30dp</item>
+    </style>
+</resources>

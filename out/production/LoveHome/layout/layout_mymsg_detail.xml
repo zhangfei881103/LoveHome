@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical">
+
+    <include layout="@layout/head" />
+
+    <TextView
+        android:id="@+id/txt_mymsg_detail_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="系统信息标题" />
+
+    <TextView
+        android:id="@+id/txt_mymsg_detail_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1分钟前" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#E8E8E8" />
+
+    <TextView
+        android:id="@+id/txt_mymsg_detail_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="系统信息内容" />
+</LinearLayout>

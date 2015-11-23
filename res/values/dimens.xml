@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- ******************start字体大小设置************************* -->
+    <!-- 头部主标题 -->
+    <dimen name="text_head_title_size">32dp</dimen>
+    <!-- 头部按钮 -->
+    <dimen name="text_head_btn_size">32dp</dimen>
+    <!-- 主标题 -->
+    <dimen name="text_title_size">32dp</dimen>
+    <!-- 副标题 -->
+    <dimen name="text_subtitle_size">32dp</dimen>
+    <!-- 其他标题 -->
+    <dimen name="text_other_size">32dp</dimen>
+    <!-- 主体标题 -->
+    <dimen name="text_mainbody_size">32dp</dimen>
+    <!-- 提示字体 -->
+    <dimen name="text_prompt_size">32dp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="comment_size">18sp</dimen>
+    <!-- ******************end字体大小设置************************* -->
+
+
+    <!-- **********************start行间距************************ -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <!-- 头部标题高度 -->
+    <dimen name="head_title_height">16dp</dimen>
+    <!-- 头部标题高度 -->
+    <dimen name="bottom_menu_height">16dp</dimen>
+    <!-- 列表水平外间距 -->
+    <dimen name="listview_left_horizontal_margin">16dp</dimen>
+    <dimen name="listview_right_horizontal_margin">16dp</dimen>
+    <!-- 列表垂直间距 -->
+    <dimen name="listview_vertical_margin">16dp</dimen>
+    
+    <!-- listview每个item的间隔距离 -->
+    <dimen name="listview_divider_heigth">10dp</dimen>
+    <!-- 首页底部按钮间隔距离 -->
+    <dimen name="buttom_heigth">5dp</dimen>
+<!-- **********************end行间距************************** -->
+
+<!-- **********************左右间距大小************************ -->
+    <!-- 外边距 -->
+    <dimen name="margin_large_30">30dp</dimen>
+	<!-- 外边距 -->
+    <dimen name="margin_large_20">20dp</dimen>
+    <!-- 外边距 -->
+    <dimen name="margin_large">15dp</dimen>
+    <!-- 外边距 -->
+    <dimen name="margin_middle">10dp</dimen>
+    <!-- 外边距 -->
+    <dimen name="margin_small">5dp</dimen>
+
+    <dimen name="margin_padding_12">12dp</dimen>
+    
+    <!-- 外边距 -->
+    <dimen name="padding_large_30">30dp</dimen>
+    <!-- 外边距 -->
+    <dimen name="padding_large_20">20dp</dimen>
+    <!-- 内边距 -->
+    <dimen name="padding_large">15dp</dimen>
+    <!-- 内边距 -->
+    <dimen name="padding_middle">10dp</dimen>
+    <!-- 内边距 -->
+    <dimen name="padding_small">5dp</dimen>
+   
+    
+            
+<!-- **********************end行间距************************** -->
+    <!--bySunChange-->
+    <dimen name="login_margintop_40">40dp</dimen>
+    
+
+    <dimen name="rdo1">0dp</dimen>
+    <dimen name="rdo2">80dp</dimen>
+    <dimen name="rdo3">160dp</dimen>
+    <dimen name="rdo4">240dp</dimen>
+    <dimen name="rdo5">320dp</dimen>
+
+</resources>

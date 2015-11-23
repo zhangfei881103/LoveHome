@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">爱家乡</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="good">美食</string>
+    <string name="distace">离我最近</string>
+    <string name="allshop">全部商户</string>
+    <string name="location">地址：</string>
+    <string name="contact">联系人：</string>
+    <string name="mobiephone">电话：</string>
+    <string name="my">我的</string>
+    <string name="defultdialogshow">加载中...</string>
+    <string name="defultshowerror">加载失败</string>
+    <string name="defultshowsuccess">加载成功</string>
+    <string name="defultshownonew">检测不到网络信号!</string>
+    <string name="defultsslerror">证书无效,请正确设置本地时间</string>
+    <string name="connect_outtime">连接超时</string>
+    <string name="look_shop">查找商户</string>
+    <string name="shopName">商家名称</string>
+    <string name="businesshours">营业时间</string>
+    <string name="consumePerson">人均消费</string>
+    <string name="address">地址</string>
+    <string name="mobile">电话</string>
+    <string name="mobiletxt">填写正确的联系方式（外地带 "区号-"）</string>
+    <string name="waimaiTime">外卖时间</string>
+    <string name="waimaiDistance">外卖范围</string>
+    <string name="waimaiShoufei">外卖收费</string>
+
+</resources>

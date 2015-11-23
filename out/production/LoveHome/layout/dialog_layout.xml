@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="张三"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dialog_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12121212121"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dialog_telphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="021-23233565"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_mobile"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_bg"
+            android:gravity="center"
+            android:minHeight="45dp"
+            android:text="打固话"
+            android:textColor="@color/text_white_color"
+            android:textSize="16sp"
+             />
+
+        <Button
+            android:id="@+id/button_telphone"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:background="@drawable/button_press_bg"
+            android:gravity="center"
+            android:minHeight="45dp"
+            android:text="打手机"
+            android:textColor="@color/text_red_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
